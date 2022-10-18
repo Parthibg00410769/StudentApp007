@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class StudentApp007 {
     public static void main(String[] args) {
+        ///##First Instance
         System.out.println("Please enter your student name: ");
         Scanner stringScanner   = new Scanner(System.in);
         String Studentname = stringScanner.next();
@@ -22,7 +23,7 @@ public class StudentApp007 {
         stuDetails.setCourse(Studentcourse);
         System.out.println(stuDetails.getCourse());
 
-        //////
+        ///##Second Instance
         Studentdetails stu2Details = new Studentdetails();
         System.out.println("Please enter your student2 name: ");
         String Student2name = stringScanner.next();
@@ -41,7 +42,7 @@ public class StudentApp007 {
         stu2Details.setCourse(Student2course);
         System.out.println(stu2Details.getCourse());
 
-        ////////
+        ///Instance 3
         Studentdetails stu3Details = new Studentdetails();
         System.out.println("Please enter your student3 name: ");
         String Student3name = stringScanner.next();
