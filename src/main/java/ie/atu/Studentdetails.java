@@ -10,12 +10,17 @@ public class Studentdetails {
         this.email = email;
         this.course = course;
     }
+    public Studentdetails(String Student2name) {
+        this.name = name;
+
+    }
 
     public Studentdetails(String Student3name, String Student3email, String Student3course) {
         this.name = Student3name;
         this.email = Student3email;
         this.course = Student3course;
     }
+
 
 
     public String getName() {
