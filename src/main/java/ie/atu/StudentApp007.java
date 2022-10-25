@@ -30,8 +30,8 @@ public class StudentApp007 {
         String Student2course = stringScanner.nextLine();
 
         Studentdetails stu2Details = new Studentdetails(Student2name);
-        stu2Details.setEmail(Student2name);
-        stu2Details.setCourse(Student2name);
+        stu2Details.setEmail(Student2email);
+        stu2Details.setCourse(Student2course);
 
 
         ///Third Instance

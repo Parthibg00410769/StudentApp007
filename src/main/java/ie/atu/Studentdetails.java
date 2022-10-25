@@ -11,7 +11,7 @@ public class Studentdetails {
         this.course = course;
     }
     public Studentdetails(String Student2name) {
-        this.name = name;
+        this.name = Student2name;
 
     }
 
