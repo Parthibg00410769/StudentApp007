@@ -46,17 +46,17 @@ public class StudentApp007 {
 
 
         //////Printing the details////////
-        System.out.println(stuDetails.getName());
-        System.out.println(stuDetails.getEmail());
-        System.out.println(stuDetails.getCourse());
+        System.out.println("Student1 name is: " +stuDetails.getName());
+        System.out.println("Student1 email is: " +stuDetails.getEmail());
+        System.out.println("Student1 course is: " +stuDetails.getCourse());
 
-        System.out.println(stu2Details.getName());
-        System.out.println(stu2Details.getEmail());
-        System.out.println(stu2Details.getCourse());
+        System.out.println("Student2 name is: " +stu2Details.getName());
+        System.out.println("Student2 email is: " +stu2Details.getEmail());
+        System.out.println("Student2 course is: " +stu2Details.getCourse());
 
-        System.out.println(stu3Details.getName());
-        System.out.println(stu3Details.getEmail());
-        System.out.println(stu3Details.getCourse());
+        System.out.println("Student3 name is: " +stu3Details.getName());
+        System.out.println("Student3 email is: " +stu3Details.getEmail());
+        System.out.println("Student3 course is: "+stu3Details.getCourse());
 
 
 
